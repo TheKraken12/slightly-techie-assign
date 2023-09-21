@@ -1,0 +1,18 @@
+places=["santorini", "greece", "brazil", "canada", "bahamas", "italy"]
+nigga= places.pop(0)
+print(nigga)
+places.append("venice")
+print(places)
+places.insert(1,"spain")
+print(places)
+places.remove("greece")
+print(places)
+del places[0]
+print(places)
+print(sorted(places))
+places.sort()
+print(places)
+places.sort(reverse=True)
+print(places)
+print(len(places))    
+print(places[-1])
